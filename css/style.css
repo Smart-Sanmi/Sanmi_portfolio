@@ -1,0 +1,95 @@
+/** <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+* { margin: 0px;
+
+}
+
+/*  Navbar  */
+.nav_container {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;  
+    padding: 10px 
+}
+
+.nav_container > p {
+    font-family: cursive;
+    
+}
+nav {
+    display: flex ;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    
+}
+
+nav > li {
+    margin: 0 0px;
+    border-left: 1px black solid;
+    padding: 0 10px;
+    
+}
+
+
+/* Hero section */
+h1 {
+    font-size: 3rem;
+}
+.container {
+    padding: 0 10px;
+    margin: 50px 100px;
+}
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subheading {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: darkgray;
+}
+.hero_logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    }
+
+.hero_logo > img {
+    height: 40px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+/** Responsiveness   **/
+
+@media (max-width: 576px) { 
+    h1 {
+        font-size:2rem;
+    }
+    .subheading { 
+        font-size: 1rem;
+    }
+    .container {
+        margin: 10px ;
+        padding: 5px;
+    }
+    .hero_logo > img {
+        height: 30px;
+        padding: 5px;
+    }
+}
