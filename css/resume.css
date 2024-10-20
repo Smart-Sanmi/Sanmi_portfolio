@@ -1,5 +1,5 @@
 .rebox {
-    margin: 25px 0px;
+    margin: 25px 1rem;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -10,4 +10,20 @@ hr {
 }
 h2 {
     color: green;
+}
+
+.school {
+    margin-bottom: 15px;
+    
+}
+.a_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    
+}
+
+footer {
+    margin-top:  calc(100vh - 675px);
 }
