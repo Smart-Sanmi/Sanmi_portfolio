@@ -79,10 +79,14 @@ h1 {
     margin: 50px 100px;
 }
 .hero {
-    height: 70vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 150px;
+}
+#heroA {
+   /* height: calc(100vh - 51px);  */
 }
 .subheading {
     font-size: 1.5rem;
@@ -129,16 +133,17 @@ button:hover {
 .project_layout {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 15px;
+    justify-content: start;
+    margin: 35px 0px;
     
 }
 
 .project_layout p {
     padding: 10px;
+    margin-left: 20px;
 }
 .project_layout img {
-    height: 65vh;
+    height: 50vh;
 }
 
 footer {
@@ -150,7 +155,7 @@ footer {
 
 /** Responsiveness   **/
 
-@media (max-width: 576px) { 
+@media (max-width: 650px) { 
     h1 {
         font-size:2rem;
     }
